@@ -1,19 +1,34 @@
 <html>
-  <head> 
+  <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> 前略あずきちゃん </title>
-    <style>
+    <title>前略あずきちゃん</title>
+  　<style>
       .profile-avatar {
         border-radius: 50%;
       } 
+      .profile-avatar {
+        animation: anime1 2s ease -2s infinite alternate;
+      }
+      @keyframes anime1 {
+        0% {width: 300px; }
+        100% {width: 500px; }
+      }
+      .azuki-tittle {
+        animation: anime2 2s ease -2s infinite alternate;
+      }
+      @keyframes anime2 {
+        0% {width: 500px; background-color: aqua;}
+        100% {width: 800px; background-color: blue;}
+      }
     </style>
   </head>
   <body bgcolor="#b5b5ac">
     <center>
-      <p>
-        <font size="7"> <b>　前略あずきちゃんプロフィール　</b> </font>
+      <p class="azuki-tittle">
+        <font size="7"> <b> 前略あずきちゃん<br>
+          プロフィール　</br> </font>
       </p>
-      <img class="profile-avatar" src="https://github.com/kt3k/iyochan.love/raw/master/S__22241300.jpg"> 
+      <img class="profile-avatar" src="https://github.com/kt3k/iyochan.love/raw/master/S__22241300.jpg">
       <p style="background-color:black;color:white">
         HN
       </p>
